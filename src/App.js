@@ -26,7 +26,7 @@ function App() {
       >
         <img src={logo} alt="logo" width="500" height="500" 
         />
-        <p style={{ color: "#000000" }}>Work in progress...{dots}</p>
+        <p style={{ color: "#000000" }}>Work in progress{dots}</p>
       </header>
     </div>
   );
