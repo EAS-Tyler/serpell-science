@@ -38,28 +38,28 @@ return (
       <Typography
         variant="h4"
         component="h3"
-        sx={{ mb: 2, fontFamily: serif }}
+        sx={{ fontFamily: serif, fontWeight: 400, fontStyle: 'italic', mb: 4 }}
       >
         Who am I?
       </Typography>
 
-      <Typography variant="h5" component="div" sx={{ mb: 3 }}>
+      <Typography variant="h5" component="h2" sx={{ fontWeight: 700, mb: 2 }}>
         Professor Louise Serpell
       </Typography>
 
-      <Typography variant="body2" sx={{ mb: 1 }}>
+      <Typography variant="h6" component="h2" sx={{ fontWeight: 300, mb: 1 }}>
         30 years research in Biochemistry and Neuroscience
       </Typography>
-      <Typography variant="body2" sx={{ mb: 1 }}>
+      <Typography variant="h6" component="h2" sx={{ fontWeight: 300, mb: 1 }}>
         <Box component="span" sx={{ fontWeight: 700 }}>
           Expert
         </Box>{" "}
         in proteins, protein misfolding in disease
       </Typography>
-      <Typography variant="body2" sx={{ mb: 2 }}>
+      <Typography variant="h6" component="h2" sx={{ fontWeight: 300, mb: 1 }}>
         Neurodegenerative disease and translational directions
       </Typography>
-      <Typography variant="body2">
+      <Typography variant="h6" component="h2" sx={{ fontWeight: 300 }}>
         <Box component="span" sx={{ fontWeight: 700 }}>
           Areas of specialist interest:
         </Box>{" "}
