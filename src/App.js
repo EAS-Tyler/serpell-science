@@ -17,8 +17,8 @@ import {
   ListItemText,
 } from "@mui/material";
 // import logoImage from "./LOGO1.jpeg";
-import logoImage from "./logo.jpeg";
-import face from "./ME.png"
+// import logoImage from "./logo.jpeg";
+// import face from "./ME.png"
 
 const App = () => {
   return (
@@ -39,7 +39,7 @@ const App = () => {
           >
             <CardMedia
               component="img"
-              image={logoImage}
+              image={'LOGO1.jpeg'}
               alt="Logo"
               sx={{
                 width: "100%",
@@ -81,7 +81,7 @@ const App = () => {
           >
             <CardMedia
               component="img"
-              image={face}
+              image={'ME.png'}
               alt="Portrait"
               sx={{ width: "100%", objectFit: "cover" }}
             />

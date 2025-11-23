@@ -9,7 +9,7 @@ const Callouts = () => {
         flexDirection: "column",
         gap: 1.5,
         alignItems: "center",
-        mb: 6,
+        mb: 4,
       }}
     >
       <Button
