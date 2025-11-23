@@ -3,11 +3,11 @@ import ListItems from "./components/ListItems"
 import WhoAmI from "./components/WhoAmI"
 import Footer from "./components/Footer";
 import ToolbarComponent from "./components/Toolbar";
+import Callouts from "./components/Callouts";
 import {
   Typography,
   Container,
   Box,
-  Button,
   Grid,
   Card,
   CardMedia,
@@ -71,37 +71,7 @@ const App = () => {
         </Box>
 
         {/* Dark pill callouts */}
-        <Box
-          sx={{
-            display: "flex",
-            flexDirection: "column",
-            gap: 1.5,
-            alignItems: "center",
-            mb: 6,
-          }}
-        >
-          <Button
-            variant="contained"
-            size="small"
-            sx={{
-              bgcolor: "#111",
-              textAlign: "center",
-            }}
-          >
-            Neurodegenerative disease &amp; protein misfolding diseases.
-          </Button>
-          <Button
-            variant="contained"
-            size="small"
-            sx={{
-              bgcolor: "#111",
-              textAlign: "center",
-            }}
-          >
-            Mediating science knowledge and understanding for funders, policy
-            makers, pharmaceutical companies and the public.
-          </Button>
-        </Box>
+        <Callouts />
 
         {/* Portrait image */}
         <Box sx={{ display: "flex", justifyContent: "center" }}>
