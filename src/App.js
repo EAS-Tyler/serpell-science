@@ -24,6 +24,7 @@ import face from "./ME.png"
 const App = () => {
   return (
     <Box sx={{ minHeight: "100vh", bgcolor: "#ffffff" }}>
+
       {/* Top navigation – light, centred */}
       <AppBar
         position="static"
@@ -50,6 +51,8 @@ const App = () => {
           </Button>
         </Toolbar>
       </AppBar>
+
+
 
       {/* Hero + logo column (narrow, centred) */}
       <Container maxWidth="sm" sx={{ pb: 6 }}>
@@ -127,7 +130,7 @@ const App = () => {
         </Box>
 
         {/* Portrait image */}
-        <Box sx={{ display: "flex", justifyContent: "center", mb: 6 }}>
+        <Box sx={{ display: "flex", justifyContent: "center" }}>
           <Card
             elevation={0}
             sx={{
