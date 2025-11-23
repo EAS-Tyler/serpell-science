@@ -8,6 +8,7 @@ import {
   Chip,
   List,
   ListItem,
+  ListItemIcon
 } from "@mui/material";
 
 const AboutLouiseSerpell = () => {
@@ -47,7 +48,7 @@ const AboutLouiseSerpell = () => {
 
         <Grid container spacing={4}>
           {/* Background */}
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={6} mt={2}>
             <Typography variant="h5" gutterBottom>
               Background and career
             </Typography>
@@ -100,21 +101,33 @@ const AboutLouiseSerpell = () => {
             </Typography>
             <List dense sx={{ pl: 2 }}>
               <ListItem disableGutters>
+                <ListItemIcon sx={{ minWidth: 24 }}>
+                  <span style={{ fontSize: "1.2em", color: "#888" }}>•</span>
+                </ListItemIcon>
                 <Typography variant="body2">
                   Journal of Molecular Biology
                 </Typography>
               </ListItem>
               <ListItem disableGutters>
+                <ListItemIcon sx={{ minWidth: 24 }}>
+                  <span style={{ fontSize: "1.2em", color: "#888" }}>•</span>
+                </ListItemIcon>
                 <Typography variant="body2">
                   Frontiers in Molecular Biosciences
                 </Typography>
               </ListItem>
               <ListItem disableGutters>
+                <ListItemIcon sx={{ minWidth: 24 }}>
+                  <span style={{ fontSize: "1.2em", color: "#888" }}>•</span>
+                </ListItemIcon>
                 <Typography variant="body2">
                   Biochemical Journal
                 </Typography>
               </ListItem>
               <ListItem disableGutters>
+                <ListItemIcon sx={{ minWidth: 24 }}>
+                  <span style={{ fontSize: "1.2em", color: "#888" }}>•</span>
+                </ListItemIcon>
                 <Typography variant="body2">Amyloid</Typography>
               </ListItem>
             </List>
@@ -127,16 +140,25 @@ const AboutLouiseSerpell = () => {
             </Typography>
             <List dense sx={{ pl: 2 }}>
               <ListItem disableGutters>
+                <ListItemIcon sx={{ minWidth: 24 }}>
+                  <span style={{ fontSize: "1.2em", color: "#888" }}>•</span>
+                </ListItemIcon>
                 <Typography variant="body2">
                   Red Magazine Pioneer of the Year (2013)
                 </Typography>
               </ListItem>
               <ListItem disableGutters>
+                <ListItemIcon sx={{ minWidth: 24}}>
+                  <span style={{ fontSize: "1.2em", color: "#888" }}>•</span>
+                </ListItemIcon>
                 <Typography variant="body2">
                   University of Sussex Impact Award (2016)
                 </Typography>
               </ListItem>
               <ListItem disableGutters>
+                <ListItemIcon sx={{ minWidth: 24 }}>
+                  <span style={{ fontSize: "1.2em", color: "#888" }}>•</span>
+                </ListItemIcon>
                 <Typography variant="body2">
                   Elected Member of the Academia Europaea (2021)
                 </Typography>

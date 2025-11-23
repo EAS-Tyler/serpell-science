@@ -24,6 +24,15 @@ const ToolbarComponent = () => {
           gap: 3,
         }}
       >
+            <Button 
+          color="inherit" 
+          size="medium" 
+          variant="text"
+          onClick={() => navigate("/")}
+        >
+          Home
+        </Button>
+
         <Button 
           color="inherit" 
           size="medium" 
