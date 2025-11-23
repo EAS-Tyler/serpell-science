@@ -2,9 +2,8 @@ import React from "react";
 import ListItems from "./components/ListItems"
 import WhoAmI from "./components/WhoAmI"
 import Footer from "./components/Footer";
+import ToolbarComponent from "./components/Toolbar";
 import {
-  AppBar,
-  Toolbar,
   Typography,
   Container,
   Box,
@@ -24,33 +23,8 @@ import face from "./ME.png"
 const App = () => {
   return (
     <Box sx={{ minHeight: "100vh", bgcolor: "#ffffff" }}>
-
       {/* Top navigation – light, centred */}
-      <AppBar
-        position="static"
-        elevation={0}
-        sx={{
-          bgcolor: "#ffffff",
-          color: "text.primary",
-          borderBottom: "none",
-        }}
-      >
-        <Toolbar
-          disableGutters
-          sx={{
-            justifyContent: "center",
-            minHeight: 40,
-            gap: 3,
-          }}
-        >
-          <Button color="inherit" size="small" variant="text">
-            About
-          </Button>
-          <Button color="inherit" size="small" variant="text">
-            Projects
-          </Button>
-        </Toolbar>
-      </AppBar>
+      <ToolbarComponent />
 
 
 
