@@ -21,8 +21,6 @@ import {
 import logoImage from "./logo.jpeg";
 import face from "./ME.png"
 
-const serif = '"Times New Roman", Georgia, "Times", serif';
-
 const App = () => {
   return (
     <Box sx={{ minHeight: "100vh", bgcolor: "#ffffff" }}>
@@ -44,30 +42,10 @@ const App = () => {
             gap: 3,
           }}
         >
-          <Button
-            color="inherit"
-            size="small"
-            sx={{
-              fontSize: 11,
-              letterSpacing: 0.8,
-              textTransform: "uppercase",
-              p: 0,
-              minWidth: "auto",
-            }}
-          >
+          <Button color="inherit" size="small" variant="text">
             About
           </Button>
-          <Button
-            color="inherit"
-            size="small"
-            sx={{
-              fontSize: 11,
-              letterSpacing: 0.8,
-              textTransform: "uppercase",
-              p: 0,
-              minWidth: "auto",
-            }}
-          >
+          <Button color="inherit" size="small" variant="text">
             Projects
           </Button>
         </Toolbar>
@@ -98,28 +76,17 @@ const App = () => {
 
         {/* Titles */}
         <Box sx={{ textAlign: "center", mb: 3 }}>
-          <Typography
-            variant="h4"
-            component="h1"
-            sx={{
-              fontFamily: serif,
-              fontWeight: 400,
-              mb: 1,
-            }}
-          >
+          <Typography variant="h4" component="h1" sx={{ mb: 1 }}>
             Serpell Science
           </Typography>
 
-          <Typography
-            variant="subtitle2"
-            sx={{ fontWeight: 600, mb: 1 }}
-          >
+          <Typography variant="subtitle2" sx={{ mb: 1 }}>
             Louise Serpell Science Consulting
           </Typography>
 
           <Typography
             variant="body2"
-            sx={{ color: "#333", maxWidth: 420, mx: "auto" }}
+            sx={{ maxWidth: 420, mx: "auto" }}
           >
             Specialising in Science Communication, Liaison and Strategic
             Directions
@@ -141,12 +108,7 @@ const App = () => {
             size="small"
             sx={{
               bgcolor: "#111",
-              borderRadius: '10px',
-              textTransform: "none",
-              fontSize: 11,
-              px: 3,
-              py: 0.5,
-              "&:hover": { bgcolor: "#000" },
+              textAlign: "center",
             }}
           >
             Neurodegenerative disease &amp; protein misfolding diseases.
@@ -156,13 +118,7 @@ const App = () => {
             size="small"
             sx={{
               bgcolor: "#111",
-              borderRadius: '10px',
-              textTransform: "none",
-              fontSize: 11,
-              px: 3,
-              py: 0.5,
               textAlign: "center",
-              "&:hover": { bgcolor: "#000" },
             }}
           >
             Mediating science knowledge and understanding for funders, policy
@@ -189,10 +145,10 @@ const App = () => {
       </Container>
 
       {/* Consultancy section – wider with two columns */}
-      <ListItems>       </ListItems>
+      <ListItems />
       {/* Who am I? – full width black band */}
-      <    WhoAmI></WhoAmI>
-< Footer></Footer>
+      <WhoAmI />
+      <Footer />
     </Box>
   );
 };

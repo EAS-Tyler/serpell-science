@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   AppBar,
@@ -18,24 +17,16 @@ import {
 } from "@mui/material";
 import CheckIcon from "@mui/icons-material/Check";
 
-
-const serif = '"Times New Roman", Georgia, "Times", serif';
-
 const ListItems = () => { 
 
 return (
 
     <Container maxWidth="lg" sx={{ pb: 6 }}>
             <Box sx={{ textAlign: "center", mb: 4 }}>
-
-              <Typography
-            variant="h4"
-        component="h3"
-                sx={{ fontFamily: serif, fontWeight: 400, mb: 1 }}
-              >
+              <Typography variant="h4" component="h3" sx={{ mb: 1 }}>
                 Consultancy and advisory services
               </Typography>
-              <Typography variant="body2" sx={{ color: "text.secondary" }}>
+              <Typography variant="body2">
                 Providing a range of services arising from academic research
                 expertise.
               </Typography>
@@ -48,9 +39,9 @@ return (
                   variant="h6"
                   component="h3"
                   sx={{
-                    fontFamily: serif,
                     fontWeight: 400,
                     mb: 1,
+                    fontFamily: '"Times New Roman", Georgia, "Times", serif',
                   }}
                 >
                   Providing communication of scientific discoveries
@@ -92,9 +83,9 @@ return (
                   variant="h6"
                   component="h3"
                   sx={{
-                    fontFamily: serif,
                     fontWeight: 400,
                     mb: 1,
+                    fontFamily: '"Times New Roman", Georgia, "Times", serif',
                   }}
                 >
                   Strategic pathways

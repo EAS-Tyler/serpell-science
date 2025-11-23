@@ -1,24 +1,9 @@
 import React from "react";
 import {
-  AppBar,
-  Toolbar,
   Typography,
   Container,
   Box,
-  Button,
-  Grid,
-  Card,
-  CardMedia,
-  CardContent,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemIcon,
 } from "@mui/material";
-// import ListItemIcon from "@mui/material/ListItemIcon";
-// import CheckIcon from "@mui/icons-material/Check";
-
-const serif = '"Times New Roman", Georgia, "Times", serif';
 
 const Footer = () => {
   return (
@@ -32,11 +17,7 @@ const Footer = () => {
       }}
     >
       <Container maxWidth="sm" sx={{ textAlign: "center" }}>
-        <Typography
-          variant="h4"
-          component="h3"
-          sx={{ fontFamily: serif, fontWeight: 400, mb: 1, color: "#000000" }}
-        >
+        <Typography variant="h4" component="h3" sx={{ mb: 1 }}>
           Connecting, engaging, communicating
         </Typography>
 
@@ -48,27 +29,13 @@ const Footer = () => {
             gap: 2,
           }}
         >
-          <Typography
-            variant="h5"
-            component="h2"
-            sx={{ color: "#000000", fontWeight: 700 }}
-          >
+          <Typography variant="h5" component="h2">
             Social
           </Typography>
-
-          {/* <Typography
-            variant="h6"
-            component="h2"
-            sx={{ color: "#000000", fontWeight: 300 }}
-          >
-            Profile
-          </Typography> */}
 
           <Typography
             variant="h6"
             sx={{
-              color: "#000000",
-              fontWeight: 300,
               cursor: "pointer",
               textDecoration: "underline",
             }}
@@ -84,8 +51,6 @@ const Footer = () => {
             variant="h6"
             component="a"
             sx={{
-              color: "#000000",
-              fontWeight: 300,
               cursor: "pointer",
               textDecoration: "underline",
             }}
@@ -97,15 +62,11 @@ const Footer = () => {
           </Typography>
         </Box>
 
-
-        
         <Typography
           variant="h6"
           component="a"
           href="mailto:l.c.serpell@sussex.ac.uk"
           sx={{
-            color: "#000000",
-            fontWeight: 300,
             cursor: "pointer",
             textDecoration: "none",
           }}

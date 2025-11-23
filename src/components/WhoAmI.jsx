@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   AppBar,
@@ -16,11 +15,6 @@ import {
   ListItemText,
   ListItemIcon
 } from "@mui/material";
-// import ListItemIcon from "@mui/material/ListItemIcon";
-// import CheckIcon from "@mui/icons-material/Check";
-
-
-const serif = '"Times New Roman", Georgia, "Times", serif';
 
 const WhoAmI = () => { 
 
@@ -38,28 +32,28 @@ return (
       <Typography
         variant="h4"
         component="h3"
-        sx={{ fontFamily: serif, fontWeight: 400, fontStyle: 'italic', mb: 4 }}
+        sx={{ fontStyle: 'italic', mb: 4 }}
       >
         Who am I?
       </Typography>
 
-      <Typography variant="h5" component="h2" sx={{ fontWeight: 700, mb: 2 }}>
+      <Typography variant="h5" component="h2" sx={{ mb: 2 }}>
         Professor Louise Serpell
       </Typography>
 
-      <Typography variant="h6" component="h2" sx={{ fontWeight: 300, mb: 1 }}>
+      <Typography variant="h6" component="h2" sx={{ mb: 1 }}>
         30 years research in Biochemistry and Neuroscience
       </Typography>
-      <Typography variant="h6" component="h2" sx={{ fontWeight: 300, mb: 1 }}>
+      <Typography variant="h6" component="h2" sx={{ mb: 1 }}>
         <Box component="span" sx={{ fontWeight: 700 }}>
           Expert
         </Box>{" "}
         in proteins, protein misfolding in disease
       </Typography>
-      <Typography variant="h6" component="h2" sx={{ fontWeight: 300, mb: 1 }}>
+      <Typography variant="h6" component="h2" sx={{ mb: 1 }}>
         Neurodegenerative disease and translational directions
       </Typography>
-      <Typography variant="h6" component="h2" sx={{ fontWeight: 300 }}>
+      <Typography variant="h6" component="h2">
         <Box component="span" sx={{ fontWeight: 700 }}>
           Areas of specialist interest:
         </Box>{" "}
