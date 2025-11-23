@@ -32,7 +32,11 @@ return (
               </Typography>
             </Box>
     
-            <Grid container spacing={4} sx={{ alignItems: "flex-start", paddingLeft: '70px' }}>
+            <Grid container spacing={4} 
+            sx={{ ml: { md: 14 }, alignItems: "flex-start" }}
+            
+            // sx={{ alignItems: "flex-start" }}
+            >
               {/* Left column */}
               <Grid item xs={12} md={6}>
                 <Typography
@@ -41,6 +45,7 @@ return (
                   sx={{
                     fontWeight: 400,
                     mb: 1,
+                    paddingLeft: '20px',
                     fontFamily: '"Times New Roman", Georgia, "Times", serif',
                   }}
                 >
@@ -85,6 +90,8 @@ return (
                   sx={{
                     fontWeight: 400,
                     mb: 1,
+                    paddingLeft: '20px',
+
                     fontFamily: '"Times New Roman", Georgia, "Times", serif',
                   }}
                 >
