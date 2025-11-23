@@ -10,6 +10,7 @@ const ToolbarComponent = () => {
         bgcolor: "#ffffff",
         color: "text.primary",
         borderBottom: "none",
+        mt: '20px'
       }}
     >
       <Toolbar

@@ -26,10 +26,8 @@ const App = () => {
       {/* Top navigation – light, centred */}
       <ToolbarComponent />
 
-
-
       {/* Hero + logo column (narrow, centred) */}
-      <Container maxWidth="sm" sx={{ pb: 6 }}>
+      <Container maxWidth="sm" sx={{ pb: 6, pt: 0, mt: -4 }}>
         {/* Logo */}
         <Box sx={{ display: "flex", justifyContent: "center", mb: 2 }}>
           <Card

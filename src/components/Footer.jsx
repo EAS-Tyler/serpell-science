@@ -11,12 +11,11 @@ const Footer = () => {
       sx={{
         width: "100%",
         color: "#ffffff",
-        py: 6,
-        height: "100px",
-        mb: '30px'
-      }}
+        // py: 6,
+        // height: "100px",
+            }}
     >
-      <Container maxWidth="sm" sx={{ textAlign: "center" }}>
+      <Container maxWidth="sm" sx={{ textAlign: "center", pb: 7 }}>
         <Typography variant="h4" component="h3" sx={{ mb: 1 }}>
           Connecting, engaging, communicating
         </Typography>
@@ -29,7 +28,7 @@ const Footer = () => {
             gap: 2,
           }}
         >
-          <Typography variant="h5" component="h2">
+          <Typography variant="h5" component="h2" sx={{ color: "#000000" }}>
             Social
           </Typography>
 
@@ -37,7 +36,15 @@ const Footer = () => {
             variant="h6"
             sx={{
               cursor: "pointer",
-              textDecoration: "underline",
+              textDecoration: "none",
+              color: "#2054a8",
+              "&:hover": {
+                color: "#2054a8",
+                textDecoration: "none",
+              },
+              "&:visited": {
+                color: "#2054a8",
+              },
             }}
             component="a"
             href="https://en.wikipedia.org/wiki/Louise_Serpell"
@@ -52,7 +59,15 @@ const Footer = () => {
             component="a"
             sx={{
               cursor: "pointer",
-              textDecoration: "underline",
+              textDecoration: "none",
+              color: "#2054a8",
+              "&:hover": {
+                color: "#2054a8",
+                textDecoration: "none",
+              },
+              "&:visited": {
+                color: "#2054a8",
+              },
             }}
             href="https://www.linkedin.com/in/louise-serpell-0b318119/"
             target="_blank"
@@ -69,9 +84,17 @@ const Footer = () => {
           sx={{
             cursor: "pointer",
             textDecoration: "none",
+            color: "#2364b4",
+            "&:hover": {
+              color: "#2364b4",
+              textDecoration: "none",
+            },
+            "&:visited": {
+              color: "#2364b4",
+            },
           }}
         >
-          email: l.c.serpell@sussex.ac.uk
+          <span style={{ color: "#000", fontWeight: 500 }}>email:</span> l.c.serpell@sussex.ac.uk
         </Typography>
       </Container>
     </Box>
