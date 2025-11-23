@@ -1,7 +1,10 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import { AppBar, Toolbar, Button } from "@mui/material";
 
 const ToolbarComponent = () => {
+  const navigate = useNavigate();
+
   return (
     <AppBar
       position="static"
@@ -21,7 +24,12 @@ const ToolbarComponent = () => {
           gap: 3,
         }}
       >
-        <Button color="inherit" size="medium" variant="text">
+        <Button 
+          color="inherit" 
+          size="medium" 
+          variant="text"
+          onClick={() => navigate("/about")}
+        >
           About
         </Button>
         <Button color="inherit" size="medium" variant="text">

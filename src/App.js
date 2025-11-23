@@ -1,4 +1,5 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
 import ListItems from "./components/ListItems"
 import WhoAmI from "./components/WhoAmI"
 import Footer from "./components/Footer";
@@ -16,16 +17,15 @@ import {
   ListItem,
   ListItemText,
 } from "@mui/material";
+
+import AboutLouiseSerpell from './views/About'
 // import logoImage from "./LOGO1.jpeg";
 // import logoImage from "./logo.jpeg";
 // import face from "./ME.png"
 
-const App = () => {
+const Home = () => {
   return (
-    <Box sx={{ minHeight: "100vh", bgcolor: "#ffffff" }}>
-      {/* Top navigation – light, centred */}
-      <ToolbarComponent />
-
+    <>
       {/* Hero + logo column (narrow, centred) */}
       <Container maxWidth="sm" sx={{ pb: 6, pt: 0, mt: -4 }}>
         {/* Logo */}
@@ -93,6 +93,21 @@ const App = () => {
       <ListItems />
       {/* Who am I? – full width black band */}
       <WhoAmI />
+    </>
+  );
+};
+
+const App = () => {
+  return (
+    <Box sx={{ minHeight: "100vh", bgcolor: "#ffffff" }}>
+      {/* Top navigation – light, centred */}
+      <ToolbarComponent />
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutLouiseSerpell />} />
+      </Routes>
+
       <Footer />
     </Box>
   );
