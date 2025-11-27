@@ -1,20 +1,14 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import ListItems from "./components/ListItems"
-import WhoAmI from "./components/WhoAmI"
+import ListItems from "./components/ListItems";
+import WhoAmI from "./components/WhoAmI";
 import Footer from "./components/Footer";
 import ToolbarComponent from "./components/Toolbar";
 import Callouts from "./components/Callouts";
-import {
-  Typography,
-  Container,
-  Box,
-  Card,
-  CardMedia,
-} from "@mui/material";
+import { Typography, Container, Box, Card, CardMedia } from "@mui/material";
 
-import AboutLouiseSerpell from './views/About'
-import AboutLouiseSerpell2 from './views/About2'
+import AboutLouiseSerpell from "./views/About";
+import AboutLouiseSerpell2 from "./views/About2";
 
 const Home = () => {
   return (
@@ -32,7 +26,7 @@ const Home = () => {
           >
             <CardMedia
               component="img"
-              image={'LOGO1.jpeg'}
+              image={"LOGO1.jpeg"}
               alt="Logo"
               sx={{
                 width: "100%",
@@ -52,10 +46,7 @@ const Home = () => {
             Louise Serpell Science Consulting
           </Typography>
 
-          <Typography
-            variant="body2"
-            sx={{ maxWidth: 420, mx: "auto" }}
-          >
+          <Typography variant="body2" sx={{ maxWidth: 420, mx: "auto" }}>
             Specialising in Science Communication, Liaison and Strategic
             Directions
           </Typography>
@@ -74,7 +65,7 @@ const Home = () => {
           >
             <CardMedia
               component="img"
-              image={'ME.png'}
+              image={"ME.png"}
               // image={'ME2.png'}
               alt="Portrait"
               sx={{ width: "100%", objectFit: "cover" }}
@@ -95,7 +86,12 @@ const App = () => {
   return (
     <Box sx={{ minHeight: "100vh", bgcolor: "#ffffff" }}>
       {/* Top navigation – light, centred */}
-      <ToolbarComponent />
+
+      {/* <ToolbarComponent /> */}
+
+      <Box
+        sx={{ display: "flex", justifyContent: "center", height: "45px" }}
+      ></Box>
 
       <Routes>
         <Route path="/" element={<Home />} />
