@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button } from "@mui/material";
+import { Box } from "@mui/material";
 
 const Callouts = () => {
   return (
@@ -12,38 +12,43 @@ const Callouts = () => {
         mb: 4,
       }}
     >
-      <Button
-        variant="contained"
-        size="small"
+      <Box
         sx={{
           bgcolor: "#111",
+          color: "white",
           textAlign: "center",
           textTransform: "none",
           fontSize: "0.95rem",
           py: 1.25,
           px: 2.5,
+          width: "100%",
+          maxWidth: "600px",
+          borderRadius: "10px",
+          cursor: "default",
         }}
       >
         Neurodegenerative disease &amp; protein misfolding diseases.
-      </Button>
-      <Button
-        variant="contained"
-        size="small"
+      </Box>
+      <Box
         sx={{
           bgcolor: "#111",
+          color: "white",
           textAlign: "center",
           textTransform: "none",
           fontSize: "0.95rem",
           py: 1.25,
           px: 2.5,
+          width: "100%",
+          maxWidth: "600px",
+          borderRadius: "10px",
+          cursor: "default",
         }}
       >
         Mediating science knowledge and understanding for funders, policy
         makers, pharmaceutical companies and the public.
-      </Button>
+      </Box>
     </Box>
   );
 };
 
 export default Callouts;
-
