@@ -46,7 +46,7 @@ const AboutLouiseSerpell = () => {
           form and how they affect brain cells.
         </Typography>
 
-        <Grid container spacing={4}>
+        <Grid container spacing={4} mb={-6}>
           {/* Background */}
           <Grid item xs={12} md={6} mt={2}>
             <Typography variant="h5" gutterBottom>
