@@ -37,13 +37,13 @@ const Footer = () => {
             sx={{
               cursor: "pointer",
               textDecoration: "none",
-              color: "#2054a8",
+              color: "#1b5e20",
               "&:hover": {
-                color: "#2054a8",
+                color: "#1b5e20",
                 textDecoration: "none",
               },
               "&:visited": {
-                color: "#2054a8",
+                color: "#1b5e20",
               },
             }}
             component="a"
@@ -60,13 +60,13 @@ const Footer = () => {
             sx={{
               cursor: "pointer",
               textDecoration: "none",
-              color: "#2054a8",
+              color: "#1b5e20",
               "&:hover": {
-                color: "#2054a8",
+                color: "#1b5e20",
                 textDecoration: "none",
               },
               "&:visited": {
-                color: "#2054a8",
+                color: "#1b5e20",
               },
             }}
             href="https://www.linkedin.com/in/louise-serpell-0b318119/"
@@ -84,13 +84,13 @@ const Footer = () => {
           sx={{
             cursor: "pointer",
             textDecoration: "none",
-            color: "#2364b4",
+            color: "#1b5e20",
             "&:hover": {
-              color: "#2364b4",
+              color: "#1b5e20",
               textDecoration: "none",
             },
             "&:visited": {
-              color: "#2364b4",
+              color: "#1b5e20",
             },
           }}
         >
