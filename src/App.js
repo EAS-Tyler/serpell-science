@@ -14,6 +14,7 @@ import {
 } from "@mui/material";
 
 import AboutLouiseSerpell from './views/About'
+import AboutLouiseSerpell2 from './views/About2'
 
 const Home = () => {
   return (
@@ -98,7 +99,8 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<AboutLouiseSerpell />} />
+        <Route path="/about" element={<AboutLouiseSerpell2 />} />
+        {/* <Route path="/about2" element={<AboutLouiseSerpell2 />} /> */}
       </Routes>
 
       <Footer />
