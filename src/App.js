@@ -9,19 +9,11 @@ import {
   Typography,
   Container,
   Box,
-  Grid,
   Card,
   CardMedia,
-  CardContent,
-  List,
-  ListItem,
-  ListItemText,
 } from "@mui/material";
 
 import AboutLouiseSerpell from './views/About'
-// import logoImage from "./LOGO1.jpeg";
-// import logoImage from "./logo.jpeg";
-// import face from "./ME.png"
 
 const Home = () => {
   return (

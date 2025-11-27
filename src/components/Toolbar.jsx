@@ -13,7 +13,7 @@ const ToolbarComponent = () => {
         bgcolor: "#ffffff",
         color: "text.primary",
         borderBottom: "none",
-        mt: '20px'
+        mt: "20px",
       }}
     >
       <Toolbar
@@ -24,18 +24,18 @@ const ToolbarComponent = () => {
           gap: 3,
         }}
       >
-            <Button 
-          color="inherit" 
-          size="medium" 
+        <Button
+          color="inherit"
+          size="medium"
           variant="text"
           onClick={() => navigate("/")}
         >
           Home
         </Button>
 
-        <Button 
-          color="inherit" 
-          size="medium" 
+        <Button
+          color="inherit"
+          size="medium"
           variant="text"
           onClick={() => navigate("/about")}
         >
@@ -50,4 +50,3 @@ const ToolbarComponent = () => {
 };
 
 export default ToolbarComponent;
-
