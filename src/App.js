@@ -74,6 +74,7 @@ const Home = () => {
             <CardMedia
               component="img"
               image={'ME.png'}
+              // image={'ME2.png'}
               alt="Portrait"
               sx={{ width: "100%", objectFit: "cover" }}
             />
