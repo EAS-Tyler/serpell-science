@@ -41,9 +41,9 @@ const ToolbarComponent = () => {
         >
           About
         </Button>
-        <Button color="inherit" size="medium" variant="text">
+        {/* <Button color="inherit" size="medium" variant="text">
           Projects
-        </Button>
+        </Button> */}
       </Toolbar>
     </AppBar>
   );
