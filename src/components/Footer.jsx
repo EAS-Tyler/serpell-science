@@ -29,7 +29,7 @@ const Footer = () => {
           }}
         >
           <Typography variant="h5" component="h2" sx={{ color: "#000000" }}>
-            Social
+            Social:
           </Typography>
 
           <Typography
